@@ -7,7 +7,7 @@ var assert = require('assert')
 var prepare = require('./fixtures/prepare')
 var tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.SICEPAT.CODE)
+var courier = tracker.courier(tracker.COURIER.SICEPAT.CODE, { apikey: 'test' })
 
 describe(tracker.COURIER.SICEPAT.NAME, function () {
   var deliveredNumber = '123456789012'
