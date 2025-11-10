@@ -1,6 +1,7 @@
 # delivery-tracker
 
-## USPS uses JS for tracking history, cannot be parsed by cheerio anymore
+> [!WARNING]
+> # USPS uses JS for tracking history, cannot be parsed by cheerio anymore
 
 [![version](https://img.shields.io/npm/v/delivery-tracker.svg)](https://www.npmjs.com/package/delivery-tracker) [![download](https://img.shields.io/npm/dm/delivery-tracker.svg)](https://www.npmjs.com/package/delivery-tracker)
 [![status status](https://github.com/egg-/delivery-tracker/workflows/Node.js%20CI/badge.svg)](https://github.com/egg-/delivery-tracker/actions)
